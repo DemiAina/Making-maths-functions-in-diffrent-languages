@@ -4,7 +4,7 @@
 
 int main(void){
 
-    int num1,num2;
+    int num1,num2,val;
 
     printf ("Enter 2 numbers to be added : ");
     
@@ -12,7 +12,7 @@ int main(void){
     
     printf("\nThe numbers you want added is %d and %d\n", num1,num2);
     
-    int val = add(num1 , num2);
+    val = add(num1 , num2);
 
     printf("\n%d + %d = %d\n", num1 , num2 , val);
 
