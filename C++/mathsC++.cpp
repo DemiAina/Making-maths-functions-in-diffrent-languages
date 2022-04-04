@@ -16,5 +16,8 @@ int main(void){
 
     cout << num1 << " + " << num2 << " = " << val << endl;
 
+    val = sub(num1,num2);
 
+    cout << num1 << " - " << num2 << " = " << val << endl;
+    
 }
