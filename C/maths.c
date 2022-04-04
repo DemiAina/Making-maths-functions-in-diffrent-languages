@@ -16,4 +16,7 @@ int main(void){
 
     printf("\n%d + %d = %d\n", num1 , num2 , val);
 
+    val = sub(num1 , num2);
+
+    printf("\n%d - %d = %d\n", num1 , num2 , val);
 }
