@@ -15,4 +15,5 @@ var num2 = parseInt(prompt("Enter the second number to add : "));
 
 var val = add(num1, num2);
 
+
 console.log(`${num1} + ${num2} = ${val}`);
